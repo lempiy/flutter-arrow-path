@@ -1,6 +1,8 @@
-<a href="https://pub.dev/packages/arrow_path">
-   <img alt="Dart Pub" src="https://img.shields.io/pub/v/arrow_path.svg?color=orange&style=flat-square" />
+<a href="https://pub.dev/packages/flutter_arrow_path">
+   <img alt="Dart Pub" src="https://img.shields.io/pub/v/flutter_arrow_path.svg?color=orange&style=flat-square" />
 </a>
+
+# Null Safe Fork of [arrow_path](https://pub.dev/packages/arrow_path)
 
 # Flutter arrow_path package
 
@@ -8,7 +10,7 @@ Draw arrows with Path objects easily. Paths can be composited to add arrows to a
 
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/quentinleguennec/flutter-arrow-path/master/example/arrow_path_example.png" width="400" align="middle"/>
+    <img src="https://raw.githubusercontent.com/lempiy/flutter-arrow-path/master/example/arrow_path_example.png" width="400" align="middle"/>
 </p>
 
 
@@ -19,4 +21,4 @@ when the curvature at the end is high.
 
 ## Getting Started
 
-Have a look at the [example app](https://github.com/quentinleguennec/flutter-arrow-path/blob/master/example/lib/main.dart) to get started.
+Have a look at the [example app](https://github.com/lempiy/flutter-arrow-path/blob/master/example/lib/main.dart) to get started.
