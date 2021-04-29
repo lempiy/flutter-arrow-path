@@ -32,7 +32,7 @@ class ArrowPath {
   static Path _make(Path path, double tipLength, double tipAngle,
       bool isDoubleSided, bool isAdjusted) {
     PathMetric lastPathMetric;
-    late PathMetric firstPathMetric;
+    PathMetric? firstPathMetric;
     Offset tipVector;
     Tangent? tan;
     double adjustmentAngle = 0;
@@ -62,7 +62,7 @@ class ArrowPath {
     path.relativeLineTo(tipVector.dx, tipVector.dy);
 
     if (isDoubleSided) {
-      tan = firstPathMetric.getTangentForOffset(0);
+      tan = firstPathMetric!.getTangentForOffset(0);
       if (isAdjusted && firstPathMetric.length > 10) {
         Tangent tanBefore = firstPathMetric.getTangentForOffset(5)!;
         adjustmentAngle = _getAngleBetweenVectors(tan!.vector, tanBefore.vector);
