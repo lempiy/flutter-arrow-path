@@ -1,6 +1,6 @@
 import 'dart:ui';
 
-import 'package:arrow_path/arrow_path.dart';
+import 'package:arrow_path/flutter_arrow_path.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
